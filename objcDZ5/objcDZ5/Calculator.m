@@ -76,7 +76,6 @@
             break;
     }
 
-    // И запускаем заново
     if ([self.operations intValue] > -1) {
         loadNumbers(self);
     }

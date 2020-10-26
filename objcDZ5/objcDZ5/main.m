@@ -84,7 +84,6 @@ void getMenu () {
         getMenu();
         
     } else if (operation == 2) {
-        // Создаем четырех птиц
         Bird *bird1 = [[Bird alloc] initWithName:@"Орёл"];
         Bird *bird2 = [[Bird alloc] initWithName:@"Дятел"];
         Bird *bird3 = [[Bird alloc] initWithName:@"Воробей"];
